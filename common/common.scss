@@ -1,3 +1,14 @@
+$var-bgcolor-base: #ddd;
+$nav-links: #666;
+$var-logo-width: 280px;
+$text-color:#333;
+$link-primary:#E96A1E;
+$black:#000;
+$white:#fff;
+$selection:#F4E0BD;
+$smoke:rgba($black,0.1);
+$ash:rgba($black,0.3);
+
 //use Roboto font
 html {
     font-family: "Roboto", sans-serif;
@@ -5,4 +16,18 @@ html {
 }
 body input, body button, body select, body textarea {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.discourse-embedding .button,
+.btn-primary {
+  border: 1px solid $link-primary;
+  color: $white;
+  background:$link-primary;
+}
+
+.discourse-embedding .button:hover,
+.btn-primary:hover {
+  color:$link-primary;
+  border-color: $link-primary;
+  background: $white;
 }
