@@ -18,6 +18,18 @@ body input, body button, body select, body textarea {
     font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
 
+
+// disable anonymous stats
+html.anon section.about.stats { display: none; }
+
+//Disable categories
+.topic-list .category.sortable, .topic-list .category, .category-links.clearfix .select-box .select-box-header {
+    display: none;
+}
+
+topic-meta-data .username {display: none;}
+.list-controls .category-breadcrumb .has-drop.box { display: none; }
+
 .discourse-embedding .button,
 .btn-primary {
   border: 1px solid $link-primary;
