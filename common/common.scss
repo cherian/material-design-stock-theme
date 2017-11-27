@@ -30,22 +30,24 @@ html.anon section.about.stats { display: none; }
 topic-meta-data .username {display: none;}
 .list-controls .category-breadcrumb .has-drop.box { display: none; }
 
+#create-topic.btn,
+.widget-button.btn.create,
 a.btn-primary,
 .btn-primary {
   border: 1px solid $link-primary;
-  color: $white;
-  background:$link-primary;
+  color: $white !important;
+  background-color: $link-primary !important;
 
   &:hover {
     color:$link-primary !important;
-    border-color: $link-primary;
-    background: $white;
+    border-color: $link-primary !important;
+    background-color: $white !important;
   }
   &[disabled] {
-    background:$link-primary !important;
+    background-color: $link-primary !important;
   }
   &[disabled]:hover {
-    background: $white !important;
+    background-color: $white !important;
   }
 
 }
