@@ -35,15 +35,25 @@ a.btn-primary,
   border: 1px solid $link-primary;
   color: $white;
   background:$link-primary;
+
+  &:hover {
+    color:$link-primary !important;
+    border-color: $link-primary;
+    background: $white;
+  }
+  &[disabled] {
+    background:$link-primary !important;
+  }
+  &[disabled]:hover {
+    background: $white !important;
+  }
+
 }
 
-a.btn-primary:hover,
-.btn-primary:hover {
-  color:$link-primary;
-  border-color: $link-primary;
-  background: $white;
-}
-
+/**
+ * Section for embedding. also make sure variabled defined on top are also
+ * copied
+ */
 .discourse-embedding .button {
   transition: all .2s;
   outline:none;
