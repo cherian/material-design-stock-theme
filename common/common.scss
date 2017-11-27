@@ -51,6 +51,9 @@ a.btn-primary,
   }
 
 }
+#create-topic.btn {
+  color: $link-primary !important;
+}
 
 /**
  * Section for embedding. also make sure variabled defined on top are also
