@@ -30,12 +30,14 @@ html.anon section.about.stats { display: none; }
 topic-meta-data .username {display: none;}
 .list-controls .category-breadcrumb .has-drop.box { display: none; }
 
+a.btn-primary,
 .btn-primary {
   border: 1px solid $link-primary;
   color: $white;
   background:$link-primary;
 }
 
+a.btn-primary:hover,
 .btn-primary:hover {
   color:$link-primary;
   border-color: $link-primary;
