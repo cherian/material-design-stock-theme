@@ -43,13 +43,13 @@ topic-meta-data .username {display: none;}
 }
 
 .discourse-embedding .button {
-  @include transition(all .2s);
+  transition: all .2s;
   outline:none;
   padding: 5px 10px;
   border: 1px solid $link-primary;
   color: $white;
   background:$link-primary;
-  @include border-radius(3px);
+  border-radius: 3px;
   text-align: center;
   font-size: 14px;
   line-height: 1.42857143;
