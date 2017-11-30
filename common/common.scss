@@ -54,31 +54,3 @@ a.btn-primary,
 #create-topic.btn {
   color: $link-primary !important;
 }
-
-/**
- * Section for embedding. also make sure variabled defined on top are also
- * copied
- */
-.discourse-embedding .button {
-  transition: all .2s;
-  outline:none;
-  padding: 5px 10px;
-  border: 1px solid $link-primary;
-  color: $white;
-  background:$link-primary;
-  border-radius: 3px;
-  text-align: center;
-  font-size: 14px;
-  line-height: 1.42857143;
-  font-weight: 600;
-  display: inline-block;
-  text-transform: uppercase;
-  vertical-align: middle;
-  white-space: nowrap;
-  cursor: pointer;
-  &:hover{
-    color:$link-primary;
-    border-color: $link-primary;
-    background: $white;
-  }
-}
